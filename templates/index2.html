@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1 {
+                color: red;
+            }
+            p {
+                background-color: yellow;
+            }
+            .small {
+                border-radius: 5px;
+            }
+            .btn-config{
+                color: white;
+                font-family: 'Chalkboard SE';
+                font-size: 20px;
+            }
+            .btn-size-small {
+                width: 200px;
+                height: 60px;
+                padding: 15px;
+                border: none;
+                outline: none;
+            }
+            .gradient {
+                background: linear-gradient(45deg, #8b59ffff, #83c7c3ff)
+            }
+            .gradient:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 8px 20px rgba(139, 89, 255, 0.4);
+            }
+            .gradient:active {
+                transform: translateY(1px);
+                box-shadow: 0 2px 5px rgba(139, 89, 255, 0.4);
+            }
+            .box {
+                box-shadow: 5px 5px 10px rgba(139, 89, 255, 0.4);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Красный заголовок</h1>
+        <p>Текст на желтом фоне</p>
+        <button class='btn-config small btn-size-small gradient box gradient:hover gradient:active'>Синяя кнопка</button>
+    </body>
+</html>
